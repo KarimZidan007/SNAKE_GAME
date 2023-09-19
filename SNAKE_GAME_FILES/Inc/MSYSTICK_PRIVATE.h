@@ -1,0 +1,20 @@
+/*
+ * MSYSTICK_PRIVATE.h
+ *
+ *  Created on: Sep 14, 2023
+ *      Author: karim
+ */
+
+#ifndef MSYSTICK_PRIVATE_H_
+#define MSYSTICK_PRIVATE_H_
+
+#define AHB_CLOCK_FREQ   1
+#define AHB_CLOCK_DIV_8  0
+
+typedef enum
+{
+SYSTICK_INTERVAL_SINGLE,
+SYSTICK_INTERVAL_PERIODIC,
+}SYSTICK_INTERVAL_STATE_T;
+
+#endif /* MSYSTICK_PRIVATE_H_ */
